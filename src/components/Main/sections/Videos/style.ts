@@ -39,10 +39,7 @@ export const VideoStyled = styled.section`
         width: 48%;
         cursor: pointer;
       }
-      .deslike{
-        cursor: pointer;
-        width: 48%;
-      }
+
     
     }
   }
