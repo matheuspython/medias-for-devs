@@ -18,6 +18,7 @@ export default createGlobalStyle`
     list-style-type: none;
   }
   .container{
+    padding: 0 2%;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
