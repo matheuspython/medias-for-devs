@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import media from 'styled-media-query';
 
 export const VideoStyled = styled.section`
-  width: 60%;
+  width: 58%;
   padding-top: 20px;
   ${media.lessThan("large")`
     width: 100%;
