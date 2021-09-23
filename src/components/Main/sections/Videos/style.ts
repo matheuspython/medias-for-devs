@@ -12,7 +12,7 @@ export const VideoStyled = styled.section`
     width:100%;
     height: 89vh;
     max-height: 400px;
-    img{
+    iframe{
       background-position: center;
       object-fit: cover;
       background-size: cover;

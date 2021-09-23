@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 
 export const ComentariosStyled = styled.section`
   padding-top: 20px;
@@ -9,9 +10,12 @@ export const ComentariosStyled = styled.section`
   flex-direction: column;
 
   form{
-    width: 100%;
+    width: 60%;
     display: flex;
     flex-direction: column;
+    ${media.lessThan("large")`
+      width: 100%;
+    `}
     textarea{
       outline: 0;
       background: transparent;

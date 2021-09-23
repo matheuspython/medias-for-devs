@@ -4,11 +4,10 @@ import api from '../../../../services/api';
 import { VideoStyled } from './style';
 
 interface PropsVideos {
-  image: string;
   title: string;
 }
 
-const Videos: React.FC<PropsVideos> = ({ title, image }) => {
+const Videos: React.FC<PropsVideos> = ({ title }) => {
   const [likes, setLikes] = useState(0)
   const [limitLike, setLimitLike] = useState(true)
   const [visualizacoes, setvisualizacoes] = useState(0)
@@ -32,14 +31,10 @@ const Videos: React.FC<PropsVideos> = ({ title, image }) => {
   }
 
  
-
-
-
-
   return (
     <VideoStyled>
       <div className="video">
-        <img src={image} alt={title} />
+        <iframe src="https://www.youtube.com/embed/4v-Qe1dqHHw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
       </div>
 
       <p>{title}</p>
