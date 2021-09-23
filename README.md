@@ -1,6 +1,6 @@
 # media for devs a rede social de videos para programadores
 
-[link](https://medias-for-devs.vercel.app)
+[link do projeto](https://medias-for-devs.vercel.app)
 [api repositorio](https://github.com/matheuspython/medias-for-devs-api)
 
  projeto feito com o objetivo de exercitar minhas skills tanto com node quanto com react
